@@ -35,6 +35,16 @@
 | PCAP | `capinfos`, TShark conversations | Wireshark/Zeek | protocol/endpoint/stream/object analysis |
 | หลักฐานหลายชนิด/ถามเวลา | Plaso | psort/Timeline Explorer | normalize และ correlate timeline |
 | ไฟล์ถูกลบ/ไม่มี metadata | TSK metadata recovery | blkls/Foremost/PhotoRec | carving เป็นขั้นถัดจาก metadata |
+| Malware-like PE/script/document | hash + DIE/FLOSS/oletools | capa/Procmon/debugger | static ก่อน dynamic ใน isolated VM |
+| Obfuscated strings/config | FLOSS/strings | debugger + Python extractor | เก็บ plaintext หลัง decode/decrypt |
+| Web app challenge | browser DevTools + Burp/curl | targeted ffuf | map flow และ baseline ก่อน fuzz |
+| Login ได้แต่ resource แปลก | Burp Repeater | access-control matrix | แยก authn/session/authz |
+| Server error เมื่อใส่ delimiter | Repeater + response diff | parser-specific injection test | ระบุ context ก่อน payload |
+| รูป/ข้อความ OSINT | ExifTool/OCR/search | reverse image/maps/archives | เก็บ source และ corroborate |
+| Domain/เว็บไซต์อดีต | DNS/RDAP | CT logs/Wayback | current กับ historical data ต่างกัน |
+| Unicode/emoji/space แปลก | `xxd` + codepoint dump | Python mapping/interpreter | representation อาจเป็นข้อมูล |
+| Service ถามซ้ำหลายรอบ | manual transcript | Python socket/pwntools | เข้าใจหนึ่งรอบก่อน automate |
+| Binary blob custom | `xxd`, `file`, binwalk | `struct`, Kaitai/protoc | หา endian/length/framing |
 
 ## เลือกจากชนิดไฟล์
 

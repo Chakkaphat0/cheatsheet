@@ -25,6 +25,9 @@
 - Wireshark/TShark
 - Eric Zimmerman Tools
 - Volatility 3 virtual environment
+- Burp Suite Community, curl และ ffuf
+- FLOSS, capa, YARA และ Sysinternals Suite
+- browser แยก profile สำหรับ OSINT/CTF
 
 ตรวจ PATH:
 
@@ -54,7 +57,8 @@ sudo apt install -y \
   python3 python3-venv python3-pip ruby-full \
   gdb binutils patchelf radare2 upx-ucl \
   sleuthkit ewf-tools testdisk sqlite3 yara \
-  tshark wireshark-common zeek
+  tshark wireshark-common zeek \
+  curl jq yq sqlite3 protobuf-compiler netcat-openbsd
 ```
 
 ```bash
@@ -67,6 +71,8 @@ python -m pip install pillow pycryptodome oletools pypdf pdfplumber volatility3 
 package name อาจต่างกันตาม distribution ให้ใช้ official release เมื่อ repository ไม่มีรุ่นที่ต้องการ
 
 เครื่องมือ GUI/ชุดใหญ่ เช่น Ghidra, Cutter, JADX, apktool, Plaso และ Eric Zimmerman Tools ควรติดตั้งจาก release/documentation ทางการ เพราะ package repository บาง distribution เก่าหรือไม่มี
+
+สำหรับหมวด Web/Malware เพิ่ม Burp Suite, ffuf, FLOSS, capa, YARA, Procmon, Process Explorer และ Regshot ตามระบบที่ใช้ ดาวน์โหลดจากโครงการ/ผู้ผลิตทางการและตรวจ checksum/signature
 
 ## VM แยกสำหรับ Reverse/Malware-like samples
 
@@ -133,6 +139,9 @@ Windows ตรวจเครื่องมือเพิ่มเติม:
 Get-Command dumpbin, tshark, wireshark, ilspycmd -ErrorAction SilentlyContinue
 & .\Tools\capa\capa.exe --version
 & .\Tools\Zimmerman\MFTECmd.exe --version
+ffuf -V
+curl --version
+yara64.exe --version
 ```
 
 PowerShell:

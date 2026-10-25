@@ -4,16 +4,18 @@
 
 ## เริ่มจากตรงไหน
 
-1. อ่าน [Triage Playbook](00-workflow/TRIAGE_PLAYBOOK_TH.md)
-2. ถ้าไม่รู้จะใช้ tool ไหน เปิด [Tool Selection Matrix](00-workflow/TOOL_SELECTION_MATRIX_TH.md)
-3. เตรียมเครื่องจาก [Windows/WSL Setup](00-workflow/WINDOWS_WSL_SETUP_TH.md)
-4. เลือกหมวดตามชนิดไฟล์ด้านล่าง
-5. ถ้าเห็นรูปแบบโจทย์ชัดแล้ว ใช้ [Common Challenge Recipes](06-recipes/COMMON_CHALLENGE_RECIPES_TH.md)
+1. อ่าน [Cyber SEA Game Competition Guide](00-workflow/CYBER_SEA_GAME_COMPETITION_GUIDE_TH.md)
+2. อ่าน [Triage Playbook](00-workflow/TRIAGE_PLAYBOOK_TH.md)
+3. ถ้าไม่รู้จะใช้ tool ไหน เปิด [Tool Selection Matrix](00-workflow/TOOL_SELECTION_MATRIX_TH.md)
+4. เตรียมเครื่องจาก [Windows/WSL Setup](00-workflow/WINDOWS_WSL_SETUP_TH.md)
+5. เลือกหมวดตามชนิดไฟล์ด้านล่าง
+6. ถ้าเห็นรูปแบบโจทย์ชัดแล้ว เปิด Challenge Recipes ของหมวดนั้น
 
 ## โครงสร้างเอกสาร
 
 ### 00 - Workflow
 
+- [Cyber SEA Game Competition Guide](00-workflow/CYBER_SEA_GAME_COMPETITION_GUIDE_TH.md): Jeopardy/CTFd, การแบ่งทีม, handoff และ Day 1/Day 2
 - [Triage Playbook](00-workflow/TRIAGE_PLAYBOOK_TH.md): ลำดับตรวจไฟล์ 0-15 นาที
 - [Tool Selection Matrix](00-workflow/TOOL_SELECTION_MATRIX_TH.md): อาการแบบนี้ควรใช้ tool ไหน
 - [Windows/WSL Setup](00-workflow/WINDOWS_WSL_SETUP_TH.md): ติดตั้งและเตรียม offline kit
@@ -79,6 +81,42 @@
 - [Browser, Email และ Mobile](08-digital-forensics/BROWSER_EMAIL_MOBILE_TH.md)
 - [File Carving และ Recovery](08-digital-forensics/FILE_CARVING_RECOVERY_TH.md)
 - [Forensics Challenge Recipes](08-digital-forensics/FORENSICS_CHALLENGE_RECIPES_TH.md)
+
+### 09 - Malware Analysis
+
+- [Malware Analysis Playbook](09-malware-analysis/README_TH.md)
+- [Safe Lab และ Triage](09-malware-analysis/SAFE_LAB_AND_TRIAGE_TH.md)
+- [Static Analysis](09-malware-analysis/STATIC_ANALYSIS_TH.md)
+- [Dynamic Behavior Analysis](09-malware-analysis/DYNAMIC_BEHAVIOR_TH.md)
+- [Documents และ Scripts](09-malware-analysis/DOCUMENT_SCRIPT_ANALYSIS_TH.md)
+- [Malware Challenge Recipes](09-malware-analysis/MALWARE_CHALLENGE_RECIPES_TH.md)
+
+### 10 - Web Security
+
+- [Web Security Playbook](10-web-security/README_TH.md)
+- [HTTP, curl และ Burp Suite](10-web-security/HTTP_BURP_CURL_TH.md)
+- [Discovery และ ffuf](10-web-security/DISCOVERY_FFUF_TH.md)
+- [Authentication, Session และ Access Control](10-web-security/AUTH_SESSION_ACCESS_TH.md)
+- [Server-side Injection](10-web-security/SERVER_SIDE_INJECTION_TH.md)
+- [Client-side, JavaScript และ APIs](10-web-security/CLIENT_SIDE_API_TH.md)
+- [Web Challenge Recipes](10-web-security/WEB_CHALLENGE_RECIPES_TH.md)
+
+### 11 - OSINT
+
+- [OSINT Playbook](11-osint/README_TH.md)
+- [Search Operators และ Archives](11-osint/SEARCH_AND_ARCHIVES_TH.md)
+- [Image/Video และ Geolocation](11-osint/IMAGE_GEOLOCATION_TH.md)
+- [Domains, DNS และ Infrastructure](11-osint/DOMAINS_INFRASTRUCTURE_TH.md)
+- [Social/Identity Verification](11-osint/SOCIAL_IDENTITY_VERIFICATION_TH.md)
+- [OSINT Challenge Recipes](11-osint/OSINT_CHALLENGE_RECIPES_TH.md)
+
+### 12 - Miscellaneous
+
+- [Miscellaneous Playbook](12-miscellaneous/README_TH.md)
+- [Encodings, Unicode และ Esoteric Languages](12-miscellaneous/ENCODINGS_UNICODE_ESOLANGS_TH.md)
+- [Data Formats, Serialization และ Protocols](12-miscellaneous/DATA_FORMATS_PROTOCOLS_TH.md)
+- [Automation, Sockets และ Solver Patterns](12-miscellaneous/AUTOMATION_SOCKETS_TH.md)
+- [Misc Challenge Recipes](12-miscellaneous/MISC_CHALLENGE_RECIPES_TH.md)
 
 ## กฎใช้งานกับโจทย์
 
