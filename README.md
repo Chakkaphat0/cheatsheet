@@ -5,6 +5,7 @@
 ภายในมี:
 
 - วิเคราะห์โจทย์ปี 2025 และโจทย์ทดลอง
+- [ตัวอย่างวิธีสังเกต Crypto/Stegano และการใช้ crib](./csg_crypto_steg_hunting_pack/OBSERVATION_AND_CRIB_GUIDE_TH.md)
 - ตารางคาดการณ์แนว Crypto/Stegano
 - command cheat sheet
 - PowerShell triage script
