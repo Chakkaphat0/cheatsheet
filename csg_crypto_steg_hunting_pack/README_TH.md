@@ -10,6 +10,8 @@
 
 คู่มืออธิบายพร้อมตัวอย่าง: [วิธีสังเกต Crypto/Stegano และการใช้ Crib](OBSERVATION_AND_CRIB_GUIDE_TH.md)
 
+คู่มือเครื่องมือฉบับรวม: [CTF Crypto & Stegano Tool Documentation](../docs/README_TH.md)
+
 ## สรุปสั้นที่สุด
 
 แนวข้อสอบเด่นไม่ใช่ crypto ทฤษฎีหนัก แต่เป็น **file triage + decoding หลายชั้น + weak implementation** ผู้เล่น Crypto/Stegano ควรทำได้เร็วใน 5 เรื่องนี้:
