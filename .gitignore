@@ -1,0 +1,13 @@
+# Temporary extraction and local analysis output
+tmp/
+triage_*/
+
+# User-provided source archives and generated distribution archive
+/2025-Cyber-SEA-Game.zip
+/CSG_CTF.zip
+/csg_crypto_steg_hunting_pack.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+

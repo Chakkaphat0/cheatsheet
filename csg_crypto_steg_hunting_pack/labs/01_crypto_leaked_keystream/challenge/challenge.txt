@@ -1,0 +1,14 @@
+CSG Simulation 01 - Split Decision
+
+We captured two known messages and one secret message from a custom encoder.
+Every ciphertext is a hex string. Recover the target.
+
+known1_plaintext = Known plaintext beats mystery crypto.
+known1_ciphertext = 8af046128716e5dd2a0262c58090138770af7e2f7a57c9baa837ae6e43e145f38eb8f71f2781827de0a73f08c11cf0ed80dbb3f6d9c27364e324d1ba49451aade1c726b72af7161f331083d6f16ffc140aa674c6ed8ba57344efe91ab994753da254a29bccbc8ecb
+
+known2_plaintext = Never ship a secret beside its ciphertext.
+known2_ciphertext = 8ea9e8b3bd5330a8449e98be54f6c156c21ce036296be0339daaea289e276f272305e0fb47cf56358305a7ed23844d8a65e8c3cc314f866fdac4be81e70b79cf27acf0ce37b5833e8b54ae5a7058aa5ff9e9a841c47f21577942b59c2697044fca42e99d40c325e6068691a05407d71a
+
+target_ciphertext = f2337ee91b36d9cbdad6e74147d5af1f1ccd4ec2c74bcc1a24ef66b17a9b39e25a884c5415cb8153e509b8fa0acf0d13a30230a1430797818e8e930d1583c34b4a8b0484961efd7c70b930e52cdd00ad0eb91e32438dcb11b362eeb76c9e302e
+
+Flag format: CSG_SIM{...}
