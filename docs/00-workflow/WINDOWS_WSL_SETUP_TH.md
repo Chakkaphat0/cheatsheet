@@ -1,4 +1,4 @@
-# Windows/WSL Setup สำหรับ CTF Crypto & Stegano
+# Windows/WSL Setup สำหรับ CTF Crypto, Stegano, Reverse และ Forensics
 
 ## แนวทางแนะนำ
 
@@ -19,6 +19,12 @@
 - Java Runtime สำหรับ OpenStego
 - hashcat
 - CyberChef offline
+- Ghidra และ Java runtime ตาม release requirement
+- Detect It Easy, PE-bear, x64dbg
+- dnSpyEx/ILSpy
+- Wireshark/TShark
+- Eric Zimmerman Tools
+- Volatility 3 virtual environment
 
 ตรวจ PATH:
 
@@ -32,7 +38,7 @@ Python environment:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install pillow pycryptodome oletools pypdf pdfplumber
+python -m pip install pillow pycryptodome oletools pypdf pdfplumber volatility3 z3-solver angr
 ```
 
 ## WSL/Kali
@@ -45,17 +51,37 @@ sudo apt install -y \
   pngcheck steghide stegseek stegsnow \
   hashcat john imagemagick ffmpeg sox \
   tesseract-ocr zbar-tools \
-  python3 python3-venv python3-pip ruby-full
+  python3 python3-venv python3-pip ruby-full \
+  gdb binutils patchelf radare2 upx-ucl \
+  sleuthkit ewf-tools testdisk sqlite3 yara \
+  tshark wireshark-common zeek
 ```
 
 ```bash
 sudo gem install zsteg
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install pillow pycryptodome oletools pypdf pdfplumber
+python -m pip install pillow pycryptodome oletools pypdf pdfplumber volatility3 z3-solver angr
 ```
 
 package name อาจต่างกันตาม distribution ให้ใช้ official release เมื่อ repository ไม่มีรุ่นที่ต้องการ
+
+เครื่องมือ GUI/ชุดใหญ่ เช่น Ghidra, Cutter, JADX, apktool, Plaso และ Eric Zimmerman Tools ควรติดตั้งจาก release/documentation ทางการ เพราะ package repository บาง distribution เก่าหรือไม่มี
+
+## VM แยกสำหรับ Reverse/Malware-like samples
+
+แนะนำอย่างน้อย 2 snapshots:
+
+```text
+clean-analysis   ติดตั้ง tools แล้ว ยังไม่เคยเปิด sample
+working-case     clone/snapshot สำหรับโจทย์ปัจจุบัน
+```
+
+- NAT/network disabled เป็นค่าเริ่มต้น
+- ปิด shared clipboard, drag-and-drop และ shared folders
+- ส่งไฟล์ด้วย ISO/read-only medium หรือ staging ที่ควบคุมได้
+- อย่า login account ส่วนตัวใน VM
+- เก็บ debugger symbols/tools ก่อนตัด network
 
 ## Offline kit
 
@@ -68,6 +94,8 @@ tools/
   wordlists/
   scripts/
   docs/
+  reverse/
+  forensics/
 ```
 
 - `rockyou.txt` และ wordlist ที่การแข่งขันอนุญาต
@@ -91,6 +119,20 @@ hashcat --version
 john --list=build-info
 ffmpeg -version
 tesseract --version
+gdb --version
+r2 -v
+yara --version
+mmls -V
+tshark --version
+python3 -m volatility3.cli --help
+```
+
+Windows ตรวจเครื่องมือเพิ่มเติม:
+
+```powershell
+Get-Command dumpbin, tshark, wireshark, ilspycmd -ErrorAction SilentlyContinue
+& .\Tools\capa\capa.exe --version
+& .\Tools\Zimmerman\MFTECmd.exe --version
 ```
 
 PowerShell:

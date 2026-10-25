@@ -7,6 +7,8 @@
 - วิเคราะห์โจทย์ปี 2025 และโจทย์ทดลอง
 - [ตัวอย่างวิธีสังเกต Crypto/Stegano และการใช้ crib](./csg_crypto_steg_hunting_pack/OBSERVATION_AND_CRIB_GUIDE_TH.md)
 - [คู่มือเครื่องมือ CTF แยกตามหมวดและชนิดโจทย์](./docs/README_TH.md)
+- [Reverse Engineering Playbook](./docs/07-reverse-engineering/README_TH.md)
+- [Digital Forensics Playbook](./docs/08-digital-forensics/README_TH.md)
 - ตารางคาดการณ์แนว Crypto/Stegano
 - command cheat sheet
 - PowerShell triage script

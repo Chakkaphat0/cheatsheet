@@ -1,6 +1,6 @@
-# CTF Crypto & Stegano Tool Documentation
+# CTF Tool Documentation: Crypto, Stegano, Reverse และ Forensics
 
-เอกสารชุดนี้รวบรวมเครื่องมือที่ใช้กับโจทย์ Crypto, Steganography และ file forensics ที่เกี่ยวข้อง โดยจัดตาม **งานที่ต้องทำ** ไม่ใช่ตามชื่อโปรแกรมอย่างเดียว
+เอกสารชุดนี้รวบรวมเครื่องมือที่ใช้กับโจทย์ Crypto, Steganography, Reverse Engineering และ Digital Forensics โดยจัดตาม **งานที่ต้องทำ** ไม่ใช่ตามชื่อโปรแกรมอย่างเดียว
 
 ## เริ่มจากตรงไหน
 
@@ -52,6 +52,33 @@
 ### 06 - Recipes
 
 - [Common Challenge Recipes](06-recipes/COMMON_CHALLENGE_RECIPES_TH.md): สูตรแก้ appended ZIP, LSB, PNG height, whitespace, XOR, hash และ RSA
+
+### 07 - Reverse Engineering
+
+- [Reverse Engineering Playbook](07-reverse-engineering/README_TH.md)
+- [Triage และ File Formats](07-reverse-engineering/RE_TRIAGE_AND_FILE_FORMATS_TH.md)
+- [Assembly และ Calling Conventions](07-reverse-engineering/ASSEMBLY_CALLING_CONVENTIONS_TH.md)
+- [Ghidra Workflow](07-reverse-engineering/GHIDRA_WORKFLOW_TH.md)
+- [radare2 และ Cutter](07-reverse-engineering/RADARE2_CUTTER_TH.md)
+- [GDB/pwndbg และ x64dbg](07-reverse-engineering/GDB_PWNDBG_X64DBG_TH.md)
+- [Windows PE, capa และ .NET](07-reverse-engineering/WINDOWS_PE_DOTNET_TH.md)
+- [Java, Android, Python และ WASM](07-reverse-engineering/JAVA_ANDROID_PYTHON_WASM_TH.md)
+- [Packers, Anti-debug และ Patching](07-reverse-engineering/PACKERS_ANTIDEBUG_PATCHING_TH.md)
+- [Python, Z3 และ angr](07-reverse-engineering/RE_SCRIPTING_Z3_ANGR_TH.md)
+- [Reverse Challenge Recipes](07-reverse-engineering/RE_CHALLENGE_RECIPES_TH.md)
+
+### 08 - Digital Forensics
+
+- [Digital Forensics Playbook](08-digital-forensics/README_TH.md)
+- [Workflow และ Evidence Integrity](08-digital-forensics/FORENSIC_WORKFLOW_EVIDENCE_TH.md)
+- [Disk, Filesystem, Sleuth Kit และ Autopsy](08-digital-forensics/DISK_FILESYSTEM_TSK_AUTOPSY_TH.md)
+- [Windows Artifacts และ Eric Zimmerman Tools](08-digital-forensics/WINDOWS_ARTIFACTS_EZTOOLS_TH.md)
+- [Memory Forensics ด้วย Volatility 3](08-digital-forensics/MEMORY_VOLATILITY3_TH.md)
+- [Network Forensics ด้วย Wireshark/TShark/Zeek](08-digital-forensics/NETWORK_WIRESHARK_TSHARK_ZEEK_TH.md)
+- [Logs และ Timeline ด้วย Plaso](08-digital-forensics/LOG_TIMELINE_PLASO_TH.md)
+- [Browser, Email และ Mobile](08-digital-forensics/BROWSER_EMAIL_MOBILE_TH.md)
+- [File Carving และ Recovery](08-digital-forensics/FILE_CARVING_RECOVERY_TH.md)
+- [Forensics Challenge Recipes](08-digital-forensics/FORENSICS_CHALLENGE_RECIPES_TH.md)
 
 ## กฎใช้งานกับโจทย์
 
