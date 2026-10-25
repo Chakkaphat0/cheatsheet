@@ -133,4 +133,3 @@ Modules ที่มักคุ้มใน CTF:
 - [mmls manual](https://sleuthkit.org/sleuthkit/man/mmls.html)
 - [fls documentation](https://wiki.sleuthkit.org/fls/)
 - [Autopsy documentation](https://www.autopsy.com/support/)
-

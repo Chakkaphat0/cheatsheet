@@ -114,4 +114,3 @@ output extraction ไม่ได้หมายความว่าทุก s
 - [Foremost](https://foremost.sourceforge.net/)
 - [PhotoRec documentation](https://www.cgsecurity.org/wiki/PhotoRec)
 - [Binwalk](https://github.com/ReFirmLabs/binwalk)
-

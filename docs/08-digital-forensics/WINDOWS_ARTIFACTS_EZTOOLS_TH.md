@@ -143,4 +143,3 @@ Amcache เก็บ metadata ของไฟล์/โปรแกรมที�
 - [Eric Zimmerman tools documentation](https://ericzimmerman.github.io/#!index.md)
 - [Windows event logging](https://learn.microsoft.com/windows/win32/wes/windows-event-log)
 - [Microsoft event 4624](https://learn.microsoft.com/windows/security/threat-protection/auditing/event-4624)
-

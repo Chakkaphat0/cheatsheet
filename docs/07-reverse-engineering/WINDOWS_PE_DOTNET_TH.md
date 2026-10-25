@@ -167,4 +167,3 @@ YARA ใช้คัดไฟล์ ไม่ใช่หลักฐานว�
 - [dnSpyEx](https://github.com/dnSpyEx/dnSpy)
 - [ILSpy](https://github.com/icsharpcode/ILSpy)
 - [YARA command line](https://yara.readthedocs.io/en/latest/commandline.html)
-

@@ -166,4 +166,3 @@ info → pslist/pstree/psscan → cmdline → netscan
 
 - [Volatility 3 documentation](https://volatility3.readthedocs.io/en/latest/)
 - [Official Windows tutorial](https://github.com/volatilityfoundation/volatility3/blob/develop/doc/source/getting-started-windows-tutorial.rst)
-

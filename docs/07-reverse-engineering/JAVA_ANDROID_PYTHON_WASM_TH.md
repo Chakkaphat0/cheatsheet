@@ -144,4 +144,3 @@ WASM address เป็น offset ใน linear memory ไม่ใช่ process
 - [Android apkanalyzer](https://developer.android.com/tools/apkanalyzer)
 - [Python dis module](https://docs.python.org/3/library/dis.html)
 - [WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt)
-

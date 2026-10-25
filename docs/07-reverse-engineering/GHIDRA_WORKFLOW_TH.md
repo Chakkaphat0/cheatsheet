@@ -143,4 +143,3 @@ Linux:
 
 - [Ghidra Getting Started](https://github.com/NationalSecurityAgency/ghidra/blob/master/GhidraDocs/GettingStarted.md)
 - [Ghidra repository and releases](https://github.com/NationalSecurityAgency/ghidra)
-

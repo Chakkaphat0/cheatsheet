@@ -41,4 +41,3 @@ HOW   ลำดับเหตุการณ์และหลักฐาน�
 6-10 นาที  หา high-signal artifacts: logs, browser, recent files, processes, PCAP
 10-15 นาที สร้าง hypothesis และ timeline แรก แล้วเลือก parser เฉพาะทาง
 ```
-

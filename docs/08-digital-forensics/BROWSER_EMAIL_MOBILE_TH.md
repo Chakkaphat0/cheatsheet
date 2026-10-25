@@ -139,4 +139,3 @@ for divisor in (1, 1_000, 1_000_000):
 - [SQLite command-line shell](https://sqlite.org/cli.html)
 - [Mozilla Firefox profile contents](https://support.mozilla.org/kb/profiles-where-firefox-stores-user-data)
 - [Python email package](https://docs.python.org/3/library/email.html)
-

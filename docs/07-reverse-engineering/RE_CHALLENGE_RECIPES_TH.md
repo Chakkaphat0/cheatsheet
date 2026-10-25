@@ -196,4 +196,3 @@ upx -d chall_unpacked.exe
 ## Flag
 `CSG{...}`
 ```
-

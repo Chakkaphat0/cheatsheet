@@ -186,4 +186,3 @@ debug ที่ input/compare/decrypt → เก็บค่าระหว่�
 - [GNU Binutils manuals](https://sourceware.org/binutils/docs/)
 - [radare2 official book](https://book.rada.re/)
 - [Microsoft PE format](https://learn.microsoft.com/windows/win32/debug/pe-format)
-

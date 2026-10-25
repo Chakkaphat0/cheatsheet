@@ -42,4 +42,3 @@
 - [ ] snapshot VM ก่อน dynamic analysis
 - [ ] ห้ามส่งตัวอย่างที่อาจมีข้อมูลลับไป online analyzer
 - [ ] เก็บ command, offset, RVA และผลลัพธ์ทุกขั้น
-

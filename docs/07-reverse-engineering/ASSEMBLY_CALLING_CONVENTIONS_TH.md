@@ -153,4 +153,3 @@ objdump -d -M intel demo_O2 > O2.asm
 - [Intel Software Developer Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 - [System V AMD64 ABI](https://gitlab.com/x86-psABIs/x86-64-ABI)
 - [Microsoft x64 calling convention](https://learn.microsoft.com/cpp/build/x64-calling-convention)
-

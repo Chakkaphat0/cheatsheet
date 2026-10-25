@@ -229,4 +229,3 @@ Source: Security.evtx record 12345, corroborated by PCAP frame 9012
 ## Limitations
 ข้อมูลที่ไม่มี, parser caveats, confidence
 ```
-

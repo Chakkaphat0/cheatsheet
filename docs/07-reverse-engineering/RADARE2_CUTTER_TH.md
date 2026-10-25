@@ -142,4 +142,3 @@ Cutter อาจใช้ decompiler plugin ต่างกัน ผล pseudoc
 - [radare2 analysis commands](https://book.rada.re/analysis/intro.html)
 - [radare2 reference card](https://book.rada.re/refcard/intro.html)
 - [Cutter documentation](https://cutter.re/docs/)
-
