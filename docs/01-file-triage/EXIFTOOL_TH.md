@@ -105,4 +105,3 @@ metadata เป็นเพียงหนึ่ง layer หากพบ hint `
 
 - ExifTool documentation: https://exiftool.org/exiftool_pod.html
 - Tag names: https://exiftool.org/TagNames/
-

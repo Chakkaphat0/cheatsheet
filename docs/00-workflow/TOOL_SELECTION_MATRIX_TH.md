@@ -73,4 +73,3 @@
 - hashcat `line length exception`: มักเลือก `-m` ผิดหรือ hash format ไม่ตรง
 - 7-Zip เปิดไม่ได้: อาจมี junk ก่อน header, encrypted header หรือไม่ใช่ archive
 - CyberChef Magic ไม่เจอ: อย่าเพิ่ม operation สุ่ม ให้กลับไปวิเคราะห์ alphabet/block size
-

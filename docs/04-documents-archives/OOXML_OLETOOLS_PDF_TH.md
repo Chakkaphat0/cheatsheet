@@ -149,4 +149,3 @@ Path("decoded.bin").write_bytes(bytes(x ^ 0xff for x in data))
 - olevba: https://github.com/decalage2/oletools/blob/master/oletools/doc/olevba.md
 - pypdf: https://pypdf.readthedocs.io/
 - Poppler tools: https://poppler.freedesktop.org/
-

@@ -124,4 +124,3 @@ key_char = (cipher_char - plain_char) % 26
 
 - CyberChef: https://github.com/gchq/CyberChef
 - Cryptii: https://cryptii.com/
-

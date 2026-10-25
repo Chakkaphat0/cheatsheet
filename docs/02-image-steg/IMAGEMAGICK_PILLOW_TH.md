@@ -111,4 +111,3 @@ ImageChops.difference(a, b).save("diff.png")
 
 - ImageMagick command line: https://imagemagick.org/script/command-line-processing.php
 - Pillow handbook: https://pillow.readthedocs.io/en/stable/handbook/index.html
-

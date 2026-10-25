@@ -258,4 +258,3 @@ for f in frames/*.png; do tesseract "$f" stdout --psm 11; done
 - flag format ตรงทุกตัวอักษร
 - `_`, `-`, case และ Unicode ไม่ถูก normalize ผิด
 - solver รันจาก clean directory ได้
-

@@ -140,4 +140,3 @@ pngcheck -vt fixed.png
 - zsteg: https://github.com/zed-0xff/zsteg
 - pngcheck: https://libpng.org/pub/png/apps/pngcheck.html
 - PNG specification: https://www.w3.org/TR/png-3/
-

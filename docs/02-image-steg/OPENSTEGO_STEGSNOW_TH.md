@@ -108,4 +108,3 @@ image.png
 - OpenStego command line: https://www.openstego.com/cmdline.html
 - OpenStego features: https://www.openstego.com/features
 - SNOW homepage: https://darkside.com.au/snow/
-

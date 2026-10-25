@@ -145,4 +145,3 @@ sox quiet.wav normalized.wav gain -n
 - SoX: https://sourceforge.net/projects/sox/
 - Sonic Visualiser: https://www.sonicvisualiser.org/
 - Audacity manual: https://manual.audacityteam.org/
-

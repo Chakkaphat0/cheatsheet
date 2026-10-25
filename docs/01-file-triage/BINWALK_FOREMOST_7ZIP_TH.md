@@ -130,4 +130,3 @@ Path("tail.zip").write_bytes(data[offset:])
 - Binwalk: https://github.com/ReFirmLabs/binwalk
 - 7-Zip command line manual: https://7-zip.org/
 - Foremost: https://foremost.sourceforge.net/
-

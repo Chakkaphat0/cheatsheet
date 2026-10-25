@@ -103,4 +103,3 @@ bangkok2025
 
 - steghide: https://steghide.sourceforge.net/documentation.php
 - stegseek: https://github.com/RickdeJager/stegseek
-

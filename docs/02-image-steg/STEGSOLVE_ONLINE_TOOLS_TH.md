@@ -68,4 +68,3 @@ GUI Java สำหรับดู color planes, bit planes, channel order แล
 - StegSolve source mirror: https://github.com/zardus/ctf-tools/tree/master/stegsolve
 - StegOnline: https://georgeom.net/StegOnline/
 - Aperi'Solve: https://www.aperisolve.com/
-

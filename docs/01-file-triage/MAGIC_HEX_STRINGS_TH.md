@@ -118,4 +118,3 @@ dd if=chall.bin of=fixed.zip bs=1 skip=10 status=none
 - `file`: https://www.darwinsys.com/file/
 - `xxd`: https://vimhelp.org/xxd.txt.html
 - GNU strings: https://sourceware.org/binutils/docs/binutils/strings.html
-

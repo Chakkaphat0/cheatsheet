@@ -120,4 +120,3 @@ for f in page-*.png; do tesseract "$f" stdout; done
 - ZBar: https://github.com/mchehab/zbar
 - Tesseract user manual: https://tesseract-ocr.github.io/tessdoc/
 - ImageMagick: https://imagemagick.org/script/command-line-processing.php
-

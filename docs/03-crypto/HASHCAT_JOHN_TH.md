@@ -143,4 +143,3 @@ for number in range(1_000_000):
 - Hashcat wiki: https://hashcat.net/wiki/
 - Hashcat example hashes: https://hashcat.net/wiki/doku.php?id=example_hashes
 - John documentation: https://www.openwall.com/john/doc/
-

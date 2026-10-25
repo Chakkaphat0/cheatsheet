@@ -107,4 +107,3 @@ PowerShell:
 - ปิด network ใน VM ถ้าไม่จำเป็น
 - อย่า upload ไฟล์โจทย์ลับไป online analyzer หากกติกาห้ามหรือไฟล์อาจมีข้อมูลส่วนตัว
 - update เครื่องมือแตก archive และ parser เป็นรุ่นที่ได้รับ security fixes
-
